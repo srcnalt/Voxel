@@ -1,5 +1,5 @@
 # Voxel
-###love2d voxel  library
+### love2d voxel  library
 
 Voxel helps you imitate 3d only using 2d voxel sprite sheets.
 
