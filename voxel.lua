@@ -24,7 +24,6 @@ end
 
 function Voxel.draw(self, x, y)
   	for i = self.len, 1, -1 do
-  		love.graphics.rotate(r)
-		lg.draw(self.img, self.quadList[self.order[i]], x, y + i * 5, 0, 10, 7, self.width/2, self.img:getHeight()/2)
+		lg.draw(self.img, self.quadList[self.order[i]], x, y + i * 5, r, SCALE, SCALE, self.width/2, self.img:getHeight()/2)
 	end
 end
